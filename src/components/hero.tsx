@@ -23,8 +23,6 @@ const Hero = () => {
             >
             <Image src="/profile-pic.png" alt="profile-image" width={150} height={150} priority={true} quality="100"
             className='rounded-full h-42 w-42 border-4 border-white shadow-lg'/>
-            <div className='mt-4'>
-            </div>
         </motion.div>
         <motion.div className='font-medium text-2xl sm:text-3xl hover:text-violet-500 text-center'
             initial={{ opacity: 0, scale: 0 }}
@@ -45,7 +43,7 @@ const Hero = () => {
             </motion.div>
 
         <motion.div
-        className="flex flex-col mt-10 sm:flex-row items-center justify-center gap-y-2 gap-x-4 text-md font-medium"
+        className="flex flex-col mt-10 sm:flex-row items-center justify-center gap-y-3 gap-x-4 sm:gap-4 text-md font-medium"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{
@@ -53,7 +51,7 @@ const Hero = () => {
         }}
       >
         <Link
-          href="#contact"
+          href="#contact" 
           className="group bg-gray-900 text-white hover:text-violet-500 px-7 py-3 flex items-center gap-2 rounded-full hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
         >
           Contact me{" "}
@@ -61,11 +59,11 @@ const Hero = () => {
         </Link>
 
         <a
-          className="group bg-zinc-100  px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer border-black dark:bg-white/10"
+          className="group bg-zinc-100 hover:text-violet-950 px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-125 transition cursor-pointer border-black dark:bg-white/10"
           href="/CV.pdf"
           download
         >
-          Download CV{" "}
+          Resume{" "}
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
         </a>
 
