@@ -12,7 +12,7 @@ import Link from 'next/link';
 const Hero = () => {
 
   return (
-    <section className='flex flex-col items-center justify-center'>
+    <section className='flex flex-col items-center justify-center pt-28 sm:pt-40'>
         <motion.div className='p-8'
             initial={{opacity:0, scale: 0}}
             animate={{opacity:1, scale: 1}}
@@ -59,7 +59,7 @@ const Hero = () => {
         </Link>
 
         <Link
-          className="group bg-zinc-100 hover:text-violet-950 px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-125 transition cursor-pointer border-black dark:bg-white/10"
+          className="group bg-slate-50 hover:text-violet-950 px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-125 transition cursor-pointer borderBlack dark:bg-white/10"
           href="/CV.pdf"
           download
         >
@@ -68,19 +68,19 @@ const Hero = () => {
         </Link>
 
         <Link
-          className="bg-slate-50 p-4 text-gray-700 hover:text-violet-500 flex items-center gap-2 text-2xl  rounded-full hover:scale-[1.15] active:scale-105 transition cursor-pointer border-black dark:bg-white/10 dark:text-white/60"
-          href="https://linkedin.com/vasu-jhawar"
-          target="_blank"
-        >
-          <BsLinkedin />
-        </Link>
-
-        <Link
-          className="bg-slate-50 p-4 text-gray-700 hover:text-violet-500 flex items-center gap-2 text-3xl rounded-full hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+          className="p-4 text-gray-700 hover:text-violet-500 flex items-center gap-2 text-3xl rounded-full hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
           href="https://github.com/vasujhawar2001"
           target="_blank"
         >
           <FaGithubSquare />
+        </Link>
+
+        <Link
+          className="p-4 text-gray-700 hover:text-violet-500 flex items-center gap-2 text-2xl  rounded-full hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+          href="https://linkedin.com/vasu-jhawar"
+          target="_blank"
+        >
+          <BsLinkedin />
         </Link>
       </motion.div>
 
