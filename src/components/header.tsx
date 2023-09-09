@@ -8,7 +8,7 @@ import Link from "next/link";
 export default function Header() {
 
   return (
-    <header className="relative">
+    <header className="z-10 relative">
       <motion.div
         className="fixed top-0 left-1/2 h-16 w-full rounded-none border border-white border-opacity-40 bg-white bg-opacity-80 shadow-lg 
         shadow-gray-200 backdrop-blur-xl sm:top-6 sm:h-14 sm:max-w-2xl sm:rounded-full

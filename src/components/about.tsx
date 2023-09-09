@@ -8,7 +8,7 @@ export default function About() {
 
   return (
     <motion.section
-      className="mb-28 max-w-[45rem] text-base text-center leading-8 sm:mb-40 scroll-mt-28 mt-48"
+      className="mb-28 max-w-3xl text-base sm:text-lg sm:leading-10 leading-8 text-center sm:mb-40 scroll-mt-28 mt-44 sm:mt-60"
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.175 }}
@@ -16,7 +16,7 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-       After realising my passion for computers and exploring the tech space, I decided to graduate in{" "}
+       After exploring the tech space and realising my passion for computers, I decided to graduate in{" "}
         <span className="font-medium">Computer Science</span>🏅.
         I have good understanding of algorithms and experienced in Java and{" "}
         <span className="font-medium underline">Full-Stack Web Development</span>.{" "}

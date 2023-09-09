@@ -24,7 +24,7 @@ const Hero = () => {
             <Image src="/profile-pic.png" alt="profile-image" width={150} height={150} priority={true} quality="100"
             className='rounded-full h-42 w-42 border-4 border-white shadow-lg'/>
         </motion.div>
-        <motion.div className='font-medium text-2xl sm:text-3xl hover:text-violet-500 text-center'
+        <motion.div className='font-medium text-2xl sm:text-4xl hover:text-violet-500 text-center'
             initial={{ opacity: 0, scale: 0 }}
             animate={{ opacity: 1, scale: 1 }}
             >
@@ -33,7 +33,7 @@ const Hero = () => {
             "A Software Engineer.",
             "<I love to code />",
             `Tech-Enthusiast.tsx`,
-            "Coffee?☕"]}
+            "Chai or Coffee?☕"]}
             loop={true}
             cursor
             cursorStyle='_'
@@ -43,7 +43,7 @@ const Hero = () => {
             </motion.div>
 
         <motion.div
-        className="flex flex-col mt-10 sm:flex-row items-center justify-center gap-y-3 gap-x-4 sm:gap-4 text-md font-medium"
+        className="flex flex-col mt-10 sm:flex-row items-center justify-center gap-4 sm:gap-4 text-md font-medium"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{
@@ -58,31 +58,32 @@ const Hero = () => {
           <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
         </Link>
 
-        <a
+        <Link
           className="group bg-zinc-100 hover:text-violet-950 px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-125 transition cursor-pointer border-black dark:bg-white/10"
           href="/CV.pdf"
           download
         >
           Resume{" "}
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
-        </a>
+        </Link>
 
-        <a
-          className="bg-slate-50 p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 text-2xl  rounded-full hover:scale-[1.15] active:scale-105 transition cursor-pointer border-black dark:bg-white/10 dark:text-white/60"
+        <Link
+          className="bg-slate-50 p-4 text-gray-700 hover:text-violet-500 flex items-center gap-2 text-2xl  rounded-full hover:scale-[1.15] active:scale-105 transition cursor-pointer border-black dark:bg-white/10 dark:text-white/60"
           href="https://linkedin.com/vasu-jhawar"
           target="_blank"
         >
           <BsLinkedin />
-        </a>
+        </Link>
 
-        <a
-          className="bg-slate-50 p-4 text-gray-700 flex items-center gap-2 text-3xl rounded-full hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+        <Link
+          className="bg-slate-50 p-4 text-gray-700 hover:text-violet-500 flex items-center gap-2 text-3xl rounded-full hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
           href="https://github.com/vasujhawar2001"
           target="_blank"
         >
           <FaGithubSquare />
-        </a>
+        </Link>
       </motion.div>
+
     </section>
   )
 }

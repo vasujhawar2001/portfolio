@@ -24,25 +24,31 @@ export const links = [
 
 export const projectsData = [
   {
-    title: "Title2",
+    title: "Google Search",
     description:
-      "lorem Ipsum is Lorem Ipsum islorem Ipsum is Lorem Ipsum islorem Ipsum is Lorem Ipsum is",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind"],
-    imageUrl: "",
+      "Google Search Engine with features like Light/Dark Mode, Pagination, next-themes",
+    tags: ["NEXT.js", "React", "TailwindCSS", "Google API"],
+    imageUrl: "/sengine.png",
+    gitUrl: "https://github.com/vasujhawar2001/sengine",
+    demoUrl: "https://sengine.vercel.app/"
   },
   {
-    title: "Title2",
+    title: "meTube",
     description:
-      "Jlorem Ipsum is Lorem Ipsum islorem Ipsum is Lorem Ipsum islorem Ipsum is Lorem Ipsum is",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind"],
-    imageUrl: "",
+      "Youtube Frontend Design build in 3 days",
+    tags: ["HTML", "CSS","React", "MUI", "Youtube API"],
+    imageUrl: "/ytclone.png",
+    gitUrl: "https://github.com/vasujhawar2001/meTube",
+    demoUrl: "https://vasujhawar2001.github.io/meTube/"
   },
   {
-    title: "Title3",
+    title: "spaceNewsHub",
     description:
-      "lorem Ipsum is Lorem Ipsum islorem Ipsum is Lorem Ipsum islorem Ipsum is Lorem Ipsum is",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind"],
-    imageUrl: "",
+      "Application which gives you latest news imformation related to space.",
+    tags: ["HTML", "CSS", "React", "spaceNewsFlight"],
+    imageUrl: "/spacenewsapi.png",
+    gitUrl: "https://github.com/vasujhawar2001/spaceNewsAPI",
+    demoUrl: "https://vasujhawar2001.github.io/spaceNewsAPI/"
   },
 ] as const;
 
