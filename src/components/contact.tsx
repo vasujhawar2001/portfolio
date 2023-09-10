@@ -12,7 +12,7 @@ export default function Contact() {
   return (
     <motion.section
       id="contact"
-      className="mb-20 p-10 sm:mb-28 text-center shadow-lg rounded-3xl bg-slate-50"
+      className="mb-20 p-10 sm:mb-28 text-center shadow-lg rounded-3xl bg-gray-50 hover:bg-slate-50"
       initial={{
         opacity: 0,
       }}
@@ -30,8 +30,8 @@ export default function Contact() {
 
       <p className="text-gray-700 dark:text-white/80">
         Please contact me directly at{" "}
-        <a className="underline" href="mailto:vasujhwr@outlook.com">
-          vasujhwr@outlook.com
+        <a className="underline font-medium" href="mailto:vasujhwr@outlook.com">
+          vasujhwr@gmail.com
         </a>{" "}
         or through this form.
       </p>
