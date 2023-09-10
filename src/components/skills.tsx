@@ -21,7 +21,7 @@ export default function Skills() {
           width={25}
           quality={95}
           alt={skill.name}
-          className='rounded-full object-cover w-20 h-20 xl:w-28
+          className='rounded-full object-contain w-auto h-auto xl:w-28
           xl:h-28 filter transition durtaion-300 ease-in-out'
             key={index}
           />
