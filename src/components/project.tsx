@@ -1,9 +1,6 @@
 import { projectsData } from "@/lib/data";
 import Image from "next/image";
 import Link from "next/link";
-import { Source_Code_Pro } from 'next/font/google';
-
-const SourceCodePro = Source_Code_Pro({ subsets: ['latin'] });
 
 type ProjectProps = (typeof projectsData)[number];
 
@@ -23,10 +20,10 @@ export default function Project({
           <p className="mt-2 leading-relaxed text-gray-700 dark:text-white/70">
             {description}
           </p>
-          <ul className={`flex flex-wrap mt-4 gap-2 ${SourceCodePro.className} font-base`}>
+          <ul className={`flex flex-wrap mt-4 gap-2 codeFont font-base`}>
             {tags.map((tag, index) => (
               <li
-                className="bg-slate-800 hover:bg-slate-200 px-3 py-1 text-sm uppercase text-white hover:text-violet-800 rounded-full dark:text-white/70"
+                className="bg-slate-800 hover:bg-slate-200 px-3 py-1 text-sm text-white hover:text-violet-800 rounded-full dark:text-white/70"
                 key={index}
               >
                 {tag}

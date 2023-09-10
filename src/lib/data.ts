@@ -43,7 +43,7 @@ export const projectsData = [
     title: "spaceNewsHub",
     description:
       "Application which gives you latest news imformation related to space.",
-    tags: ["HTML", "CSS", "React", "spaceNewsFlight"],
+    tags: ["HTML", "CSS", "React"],
     imageUrl: "/spacenewsapi.png",
     gitUrl: "https://github.com/vasujhawar2001/spaceNewsAPI",
     demoUrl: "https://vasujhawar2001.github.io/spaceNewsAPI/",

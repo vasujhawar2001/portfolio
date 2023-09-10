@@ -11,8 +11,8 @@ export default function Contact() {
 
   return (
     <motion.section
-      id="contact"
-      className="mb-20 p-10 sm:mb-28 text-center shadow-lg rounded-3xl bg-gray-50 hover:bg-gray-100"
+      id="contact"slate
+      className="mb-20 p-5 sm:p-10 sm:mb-28 text-center shadow-lg rounded-3xl bg-gray-50 hover:bg-slate-50"
       initial={{
         opacity: 0,
       }}
