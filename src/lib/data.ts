@@ -43,11 +43,20 @@ export const projectsData = [
     title: "spaceNewsHub",
     description:
       "Application which gives you latest news imformation related to space.",
-    tags: ["HTML", "CSS", "React"],
+    tags: ["HTML", "CSS", "JS", "React"],
     imageUrl: "/spacenewsapi.png",
     gitUrl: "https://github.com/vasujhawar2001/spaceNewsAPI",
     demoUrl: "https://vasujhawar2001.github.io/spaceNewsAPI/",
   },
+  {
+    title: "CoachGrounds",
+    description:
+      "Application for people to post and view learning spaces in their locality.",
+    tags: ["Javascript", "Express", "MongoDB", "EJX", "CSS"],
+    imageUrl: "/coachground.png",
+    gitUrl: "https://github.com/vasujhawar2001/CoachGrounds",
+    demoUrl: "https://coachgrounds.onrender.com/",
+  }
 ] as const;
 
 export const skillsData = [
