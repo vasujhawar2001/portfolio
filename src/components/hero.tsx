@@ -12,7 +12,7 @@ import Link from 'next/link';
 const Hero = () => {
 
   return (
-    <section className='flex flex-col items-center justify-center pt-28 sm:pt-40'>
+    <section className='flex flex-col items-center justify-center pt-24 sm:pt-40'>
         <motion.div className='p-8'
             initial={{opacity:0, scale: 0}}
             animate={{opacity:1, scale: 1}}
