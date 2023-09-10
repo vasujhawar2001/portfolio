@@ -8,9 +8,9 @@ type Props = {}
 const page = (props: Props) => {
   return (
     <div className='bg-gradient-to-r from-fuchsia-500 to-pink-500 bg-clip-text hover:text-transparent
-    text-5xl font-extrabold flex h-full items-center justify-center mt-96'>
+    sm:text-5xl text-3xl font-extrabold flex h-full items-center justify-center mt-96'>
             <Typewriter
-            words={["Coming Soon...", "Stay Tuned!", "<///Work in Progress///>"]}
+            words={["Coming Soon...", "Stay Tuned!", "<//Work in Progress//>"]}
             loop={true}
             delaySpeed={2000}
           />

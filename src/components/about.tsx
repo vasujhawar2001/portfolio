@@ -8,7 +8,7 @@ export default function About() {
 
   return (
     <motion.section
-      className="mb-32 max-w-3xl text-base sm:text-lg sm:leading-10 leading-8 text-center scroll-mt-28 mt-44"
+      className="mb-32 max-w-3xl text-base sm:text-lg sm:leading-10 leading-6 text-center scroll-mt-28 sm:mt-44 mt-28"
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.175 }}
