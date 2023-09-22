@@ -77,7 +77,7 @@ const Hero = () => {
 
         <Link
           className="p-4 text-gray-700 hover:text-violet-500 flex items-center gap-2 text-2xl  rounded-full hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://linkedin.com/vasu-jhawar"
+          href="https://www.linkedin.com/in/vasu-jhawar/"
           target="_blank"
         >
           <BsLinkedin />
